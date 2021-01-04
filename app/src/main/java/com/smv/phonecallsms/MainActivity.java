@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity
     private static final int REQUEST_CALL = 1;
     private static final int REQUEST_SMS = 2;
 
-    EditText editTextStevilka;
-    ImageView imageViewPoklici;
-    EditText editTextSMS;
-    ImageView imageViewPosljiSMS;
+    private EditText editTextStevilka;
+    private ImageView imageViewPoklici;
+    private EditText editTextSMS;
+    private ImageView imageViewPosljiSMS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
