@@ -1,0 +1,27 @@
+//TODO  Navodila: Youtube / Code in Flow /
+
+
+//TODO  How to Make a Phone Call from Your App (+ Permission Request) - Android Studio Tutorial (https://www.youtube.com/watch?v=UDwj5j4tBYg)
+
+
+//TODO App permissions vodiè na Android Developers (https://developer.android.com/guide/topics/permissions/overview)
+//TODO Request permission (https://www.youtube.com/watch?v=iHbdDAOJHIU)
+//TODO Video tutorial za app permission na primeru lokacije - Android Studio Tutorial - Getting Users Current Location (Run-Time Permissions) (https://www.youtube.com/watch?v=SsmXgb0XpeY)
+
+//SLIKICE ZA IMAGEVIEWje
+//TODO 01: res / drawable / new / Vector Asset / Clip Art / search Phone in izberi eno ikono, spremeni ime na ic_phone
+//TODO 02: odpri pripadajoèi xml file v drawables in spremeni tint npr. na primarno barvo: android:tint="?attr/colorPrimary" ali na kaj drugega npr #1111FF
+//TODO enako za SMS
+
+//DOVOLJENJE V MANIFESTU
+//Do Android 6.0 (Marshmallow, API 23) je bilo dovoljenje dovolj nastaviti v manifestu, po tem pa ge je treba med izvajanjem
+//TODO 03: manifest med </application> in </manifest>: <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission> dovolj do pred marshmallow, od tam naprej run time dovoljenja
+//TODO 03: manifest med </application> in </manifest>:  <uses-permission android:name="android.permission.SEND_SMS"></uses-permission> dovolj do pred marshmallow, od tam naprej run time dovoljenja
+
+//IKONA APLIKACIJE
+//Od Android 8.0 (Oreo, API 26) naprej obstajajo adaptivne ikone, ki jih lahko launcherji animirajo, npr. ob slide-anju
+//sestavljene so iz ozadja in ospredja v xml datoteki
+//starejše verzije androida uporabljajo  legacy ikone, ki animacij ne omogoèajo, nimajo ozadja in ospredja, ampak le eno png sliko
+//TODO 04 pripravimo si png za glavno slikico in png za ozadje
+//TODO 05 res/desni klik/new Image Asset/ Launcher Icons (adaptive and legacy), imena pustimo, v Path nastavimo glavno slikico in ozadje (image), na ospredju damo trim in nastavimo velikost, da je ospredje znotraj kroga, generirajmo pa tudi vse za legacy (Options)
+//TODO 06 preverimo v res/mipmap
