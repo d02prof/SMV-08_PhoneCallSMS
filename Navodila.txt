@@ -1,12 +1,13 @@
 //TODO  Navodila: Youtube / Code in Flow /
 
-
 //TODO  How to Make a Phone Call from Your App (+ Permission Request) - Android Studio Tutorial (https://www.youtube.com/watch?v=UDwj5j4tBYg)
-
-
 //TODO App permissions vodiè na Android Developers (https://developer.android.com/guide/topics/permissions/overview)
 //TODO Request permission (https://www.youtube.com/watch?v=iHbdDAOJHIU)
 //TODO Video tutorial za app permission na primeru lokacije - Android Studio Tutorial - Getting Users Current Location (Run-Time Permissions) (https://www.youtube.com/watch?v=SsmXgb0XpeY)
+
+//TODO Send SMS Message using SmSManager | Android Studio (https://www.youtube.com/watch?v=Z28s39brZJM)
+
+//TODO  How to Change the App Icon in Android Studio (With Adaptive Icons) (https://www.youtube.com/watch?v=ts98gL1JCQU)
 
 //SLIKICE ZA IMAGEVIEWje
 //TODO 01: res / drawable / new / Vector Asset / Clip Art / search Phone in izberi eno ikono, spremeni ime na ic_phone
