@@ -128,9 +128,7 @@ public class MainActivity extends AppCompatActivity
     {
         //super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         //če smo kaj dobili nazaj, v switch case pogledamo, kaj to je
-        //takole je v tutorialu, ampak ne vidim razloga, zakaj je treba preverjati dolžino polja
-        //if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
-        if (grantResults[0] == PackageManager.PERMISSION_GRANTED)
+        if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
         {
             switch (requestCode)
             {
@@ -144,7 +142,7 @@ public class MainActivity extends AppCompatActivity
         }
         else
         {
-            Toast.makeText(this, "Aplikacija nima zadostnih dovoljenj.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Dovoljenje ZAVRNJENO", Toast.LENGTH_SHORT).show();
         }
     }
 }
