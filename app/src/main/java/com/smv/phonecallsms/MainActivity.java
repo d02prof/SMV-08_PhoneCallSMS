@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
-    private void Telefoniraj()
+    public void Telefoniraj()
     {
         String stevilka = editTextStevilka.getText().toString();
 
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity
         else Toast.makeText(this, "Vpiši številko", Toast.LENGTH_SHORT).show();
     }
 
-    private void PosljiSMS()
+    public void PosljiSMS()
     {
         String stevilka = editTextStevilka.getText().toString();
         String besedilo = editTextSMS.getText().toString();
